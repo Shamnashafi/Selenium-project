@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>C:\Users\cheppu\eclipse-workspace\selenium-project\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">30 methods,   30 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="autoscripts.PurchaseTest" hash-for-method="SelectingBankPaymentTC20">SelectingBankPaymentTC20</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="autoscripts.PurchaseTest" hash-for-method="SelectingCardPaymentTC18">SelectingCardPaymentTC18</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="autoscripts.PurchaseTest" hash-for-method="SelectingChequePaymentTC19">SelectingChequePaymentTC19</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="autoscripts.ProductTest" hash-for-method="addBrandUsingIconTC04">addBrandUsingIconTC04</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="autoscripts.ProductTest" hash-for-method="addUnitUsingIconTC03">addUnitUsingIconTC03</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="autoscripts.PurchaseTest" hash-for-method="deletePurchaseTC30">deletePurchaseTC30</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="autoscripts.ProductTest" hash-for-method="deletingProductTC16">deletingProductTC16</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="autoscripts.LoginTest" hash-for-method="invalidLoginTC02(shamna, 123456)">invalidLoginTC02(shamna, 123456)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="autoscripts.ProductTest" hash-for-method="uploadImageTC05">uploadImageTC05</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="autoscripts.PurchaseTest" hash-for-method="uploadImageTC17">uploadImageTC17</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="autoscripts.LoginTest" hash-for-method="validLoginTC01">validLoginTC01</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="autoscripts.ProductTest" hash-for-method="variableProductTypeTC06">variableProductTypeTC06</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="autoscripts.PurchaseTest" hash-for-method="verifyLocationTC29">verifyLocationTC29</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="autoscripts.ProductTest" hash-for-method="verifyProductNameTC12">verifyProductNameTC12</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="autoscripts.PurchaseTest" hash-for-method="verifyPurchaseStatusTC28">verifyPurchaseStatusTC28</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="autoscripts.PurchaseTest" hash-for-method="verifySupplierNameTC27">verifySupplierNameTC27</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="autoscripts.ProductTest" hash-for-method="verifyingAddProductTC11">verifyingAddProductTC11</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="autoscripts.PurchaseTest" hash-for-method="verifyingAddSupplierTC26">verifyingAddSupplierTC26</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="autoscripts.ProductTest" hash-for-method="verifyingBrandTC15">verifyingBrandTC15</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="autoscripts.ProductTest" hash-for-method="verifyingCategoryTC14">verifyingCategoryTC14</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="autoscripts.ProductTest" hash-for-method="verifyingSellingPriceTC13">verifyingSellingPriceTC13</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="autoscripts.PurchaseTest" hash-for-method="withoutAddProductTC24">withoutAddProductTC24</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="autoscripts.PurchaseTest" hash-for-method="withoutAmountTC25">withoutAmountTC25</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="autoscripts.PurchaseTest" hash-for-method="withoutLocationTC23">withoutLocationTC23</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="autoscripts.ProductTest" hash-for-method="withoutProductNameTC07">withoutProductNameTC07</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="autoscripts.PurchaseTest" hash-for-method="withoutPurchaseStatusTC22">withoutPurchaseStatusTC22</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="autoscripts.ProductTest" hash-for-method="withoutQuantityTC09">withoutQuantityTC09</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="autoscripts.PurchaseTest" hash-for-method="withoutSupplierNameTC21">withoutSupplierNameTC21</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="autoscripts.ProductTest" hash-for-method="withoutTaxTC10">withoutTaxTC10</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="autoscripts.ProductTest" hash-for-method="withoutUnitTC08">withoutUnitTC08</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">autoscripts.ProductTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addBrandUsingIconTC04">
+                  </a> <!-- addBrandUsingIconTC04 -->
+                  <span class="method-name">addBrandUsingIconTC04</span>
+                  <em>
+(Adding Brand name with '+' symbol)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addUnitUsingIconTC03">
+                  </a> <!-- addUnitUsingIconTC03 -->
+                  <span class="method-name">addUnitUsingIconTC03</span>
+                  <em>
+(Adding Unit with '+' symbol)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deletingProductTC16">
+                  </a> <!-- deletingProductTC16 -->
+                  <span class="method-name">deletingProductTC16</span>
+                  <em>
+(Deleting the added product from the product list)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="uploadImageTC05">
+                  </a> <!-- uploadImageTC05 -->
+                  <span class="method-name">uploadImageTC05</span>
+                  <em>
+(Uploading Image)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="variableProductTypeTC06">
+                  </a> <!-- variableProductTypeTC06 -->
+                  <span class="method-name">variableProductTypeTC06</span>
+                  <em>
+(Selecting variable product type)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductNameTC12">
+                  </a> <!-- verifyProductNameTC12 -->
+                  <span class="method-name">verifyProductNameTC12</span>
+                  <em>
+(Verifying the product name from product list)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyingAddProductTC11">
+                  </a> <!-- verifyingAddProductTC11 -->
+                  <span class="method-name">verifyingAddProductTC11</span>
+                  <em>
+(Adding a new product)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyingBrandTC15">
+                  </a> <!-- verifyingBrandTC15 -->
+                  <span class="method-name">verifyingBrandTC15</span>
+                  <em>
+(Verifying the Brand from product list)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyingCategoryTC14">
+                  </a> <!-- verifyingCategoryTC14 -->
+                  <span class="method-name">verifyingCategoryTC14</span>
+                  <em>
+(Verifying the category from product list)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyingSellingPriceTC13">
+                  </a> <!-- verifyingSellingPriceTC13 -->
+                  <span class="method-name">verifyingSellingPriceTC13</span>
+                  <em>
+(Verifying the selling price from product list)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="withoutProductNameTC07">
+                  </a> <!-- withoutProductNameTC07 -->
+                  <span class="method-name">withoutProductNameTC07</span>
+                  <em>
+(Without mandatory field-Product Name)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="withoutQuantityTC09">
+                  </a> <!-- withoutQuantityTC09 -->
+                  <span class="method-name">withoutQuantityTC09</span>
+                  <em>
+(Without mandatory field-Quantity)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="withoutTaxTC10">
+                  </a> <!-- withoutTaxTC10 -->
+                  <span class="method-name">withoutTaxTC10</span>
+                  <em>
+(Without mandatory field-Tax)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="withoutUnitTC08">
+                  </a> <!-- withoutUnitTC08 -->
+                  <span class="method-name">withoutUnitTC08</span>
+                  <em>
+(Without mandatory field-Unit)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">autoscripts.PurchaseTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SelectingBankPaymentTC20">
+                  </a> <!-- SelectingBankPaymentTC20 -->
+                  <span class="method-name">SelectingBankPaymentTC20</span>
+                  <em>
+(Selecting Bank payment mehod)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SelectingCardPaymentTC18">
+                  </a> <!-- SelectingCardPaymentTC18 -->
+                  <span class="method-name">SelectingCardPaymentTC18</span>
+                  <em>
+(Selecting Card payment mehod)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SelectingChequePaymentTC19">
+                  </a> <!-- SelectingChequePaymentTC19 -->
+                  <span class="method-name">SelectingChequePaymentTC19</span>
+                  <em>
+(Selecting Cheque payment mehod)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deletePurchaseTC30">
+                  </a> <!-- deletePurchaseTC30 -->
+                  <span class="method-name">deletePurchaseTC30</span>
+                  <em>
+(Deleting the purchase from the list)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="uploadImageTC17">
+                  </a> <!-- uploadImageTC17 -->
+                  <span class="method-name">uploadImageTC17</span>
+                  <em>
+(Uploading Document)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLocationTC29">
+                  </a> <!-- verifyLocationTC29 -->
+                  <span class="method-name">verifyLocationTC29</span>
+                  <em>
+(Verifying the location from the purchase list)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPurchaseStatusTC28">
+                  </a> <!-- verifyPurchaseStatusTC28 -->
+                  <span class="method-name">verifyPurchaseStatusTC28</span>
+                  <em>
+(Verifying purchase status from the purchase list)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySupplierNameTC27">
+                  </a> <!-- verifySupplierNameTC27 -->
+                  <span class="method-name">verifySupplierNameTC27</span>
+                  <em>
+(Verifying supplier name from the purchase list)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyingAddSupplierTC26">
+                  </a> <!-- verifyingAddSupplierTC26 -->
+                  <span class="method-name">verifyingAddSupplierTC26</span>
+                  <em>
+(Adding a new Purchase)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="withoutAddProductTC24">
+                  </a> <!-- withoutAddProductTC24 -->
+                  <span class="method-name">withoutAddProductTC24</span>
+                  <em>
+(Without mandatory field-Add Product)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="withoutAmountTC25">
+                  </a> <!-- withoutAmountTC25 -->
+                  <span class="method-name">withoutAmountTC25</span>
+                  <em>
+(Without mandatory field-Amount)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="withoutLocationTC23">
+                  </a> <!-- withoutLocationTC23 -->
+                  <span class="method-name">withoutLocationTC23</span>
+                  <em>
+(Without mandatory field-Location)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="withoutPurchaseStatusTC22">
+                  </a> <!-- withoutPurchaseStatusTC22 -->
+                  <span class="method-name">withoutPurchaseStatusTC22</span>
+                  <em>
+(Without mandatory field-Purchase Status)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="withoutSupplierNameTC21">
+                  </a> <!-- withoutSupplierNameTC21 -->
+                  <span class="method-name">withoutSupplierNameTC21</span>
+                  <em>
+(Without mandatory field-Supplier Name)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">autoscripts.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidLoginTC02(shamna, 123456)">
+                  </a> <!-- invalidLoginTC02(shamna, 123456) -->
+                  <span class="method-name">invalidLoginTC02</span>
+                  <span class="parameters">(shamna, 123456)</span>
+                  <em>
+(Login with invalid credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validLoginTC01">
+                  </a> <!-- validLoginTC01 -->
+                  <span class="method-name">validLoginTC01</span>
+                  <em>
+(Login with valid username and valid password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\cheppu\eclipse-workspace\selenium-project\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;test thread-count=&quot;3&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;autoscripts.LoginTest&quot;/&gt;
+      &lt;class name=&quot;autoscripts.ProductTest&quot;/&gt;
+      &lt;class name=&quot;autoscripts.PurchaseTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(30);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'addUnitUsingIconTC03')
+data.setCell(0, 2, 'autoscripts.ProductTest')
+data.setCell(0, 3, 39888);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'withoutPurchaseStatusTC22')
+data.setCell(1, 2, 'autoscripts.PurchaseTest')
+data.setCell(1, 3, 25058);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'withoutSupplierNameTC21')
+data.setCell(2, 2, 'autoscripts.PurchaseTest')
+data.setCell(2, 3, 18681);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'withoutLocationTC23')
+data.setCell(3, 2, 'autoscripts.PurchaseTest')
+data.setCell(3, 3, 18418);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'uploadImageTC17')
+data.setCell(4, 2, 'autoscripts.PurchaseTest')
+data.setCell(4, 3, 14147);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'withoutProductNameTC07')
+data.setCell(5, 2, 'autoscripts.ProductTest')
+data.setCell(5, 3, 13860);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyingAddSupplierTC26')
+data.setCell(6, 2, 'autoscripts.PurchaseTest')
+data.setCell(6, 3, 12746);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'withoutTaxTC10')
+data.setCell(7, 2, 'autoscripts.ProductTest')
+data.setCell(7, 3, 12302);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'withoutQuantityTC09')
+data.setCell(8, 2, 'autoscripts.ProductTest')
+data.setCell(8, 3, 12260);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'withoutAddProductTC24')
+data.setCell(9, 2, 'autoscripts.PurchaseTest')
+data.setCell(9, 3, 12162);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'withoutUnitTC08')
+data.setCell(10, 2, 'autoscripts.ProductTest')
+data.setCell(10, 3, 11331);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'withoutAmountTC25')
+data.setCell(11, 2, 'autoscripts.PurchaseTest')
+data.setCell(11, 3, 10786);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'variableProductTypeTC06')
+data.setCell(12, 2, 'autoscripts.ProductTest')
+data.setCell(12, 3, 9430);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'addBrandUsingIconTC04')
+data.setCell(13, 2, 'autoscripts.ProductTest')
+data.setCell(13, 3, 8610);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'deletingProductTC16')
+data.setCell(14, 2, 'autoscripts.ProductTest')
+data.setCell(14, 3, 8573);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'validLoginTC01')
+data.setCell(15, 2, 'autoscripts.LoginTest')
+data.setCell(15, 3, 7379);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verifyingAddProductTC11')
+data.setCell(16, 2, 'autoscripts.ProductTest')
+data.setCell(16, 3, 7304);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'uploadImageTC05')
+data.setCell(17, 2, 'autoscripts.ProductTest')
+data.setCell(17, 3, 6520);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'SelectingCardPaymentTC18')
+data.setCell(18, 2, 'autoscripts.PurchaseTest')
+data.setCell(18, 3, 5495);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'deletePurchaseTC30')
+data.setCell(19, 2, 'autoscripts.PurchaseTest')
+data.setCell(19, 3, 5318);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'verifyProductNameTC12')
+data.setCell(20, 2, 'autoscripts.ProductTest')
+data.setCell(20, 3, 4466);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'verifyingBrandTC15')
+data.setCell(21, 2, 'autoscripts.ProductTest')
+data.setCell(21, 3, 3709);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'verifyingCategoryTC14')
+data.setCell(22, 2, 'autoscripts.ProductTest')
+data.setCell(22, 3, 3665);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'SelectingBankPaymentTC20')
+data.setCell(23, 2, 'autoscripts.PurchaseTest')
+data.setCell(23, 3, 3588);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'verifyingSellingPriceTC13')
+data.setCell(24, 2, 'autoscripts.ProductTest')
+data.setCell(24, 3, 3553);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'verifyLocationTC29')
+data.setCell(25, 2, 'autoscripts.PurchaseTest')
+data.setCell(25, 3, 3428);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'verifyPurchaseStatusTC28')
+data.setCell(26, 2, 'autoscripts.PurchaseTest')
+data.setCell(26, 3, 3391);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'SelectingChequePaymentTC19')
+data.setCell(27, 2, 'autoscripts.PurchaseTest')
+data.setCell(27, 3, 3358);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'verifySupplierNameTC27')
+data.setCell(28, 2, 'autoscripts.PurchaseTest')
+data.setCell(28, 3, 3330);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'invalidLoginTC02')
+data.setCell(29, 2, 'autoscripts.LoginTest')
+data.setCell(29, 3, 2368);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">autoscripts.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">autoscripts.ProductTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">14470 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">autoscripts.PurchaseTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">33245 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">autoscripts.LoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">invalidLoginTC02(shamna, 123456)</span>
+                <span class="method-start">65017 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validLoginTC01</span>
+                <span class="method-start">67546 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">autoscripts.ProductTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addUnitUsingIconTC03</span>
+                <span class="method-start">74933 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addBrandUsingIconTC04</span>
+                <span class="method-start">114834 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">uploadImageTC05</span>
+                <span class="method-start">123444 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">variableProductTypeTC06</span>
+                <span class="method-start">129969 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">withoutProductNameTC07</span>
+                <span class="method-start">139402 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">withoutUnitTC08</span>
+                <span class="method-start">153277 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">withoutQuantityTC09</span>
+                <span class="method-start">164618 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">withoutTaxTC10</span>
+                <span class="method-start">176888 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyingAddProductTC11</span>
+                <span class="method-start">189205 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyProductNameTC12</span>
+                <span class="method-start">196517 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyingSellingPriceTC13</span>
+                <span class="method-start">200983 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyingCategoryTC14</span>
+                <span class="method-start">204536 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyingBrandTC15</span>
+                <span class="method-start">208209 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deletingProductTC16</span>
+                <span class="method-start">211970 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">autoscripts.PurchaseTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">uploadImageTC17</span>
+                <span class="method-start">220583 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SelectingCardPaymentTC18</span>
+                <span class="method-start">234738 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SelectingChequePaymentTC19</span>
+                <span class="method-start">240233 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SelectingBankPaymentTC20</span>
+                <span class="method-start">243599 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">withoutSupplierNameTC21</span>
+                <span class="method-start">247187 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">withoutPurchaseStatusTC22</span>
+                <span class="method-start">265868 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">withoutLocationTC23</span>
+                <span class="method-start">290926 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">withoutAddProductTC24</span>
+                <span class="method-start">309352 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">withoutAmountTC25</span>
+                <span class="method-start">321522 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyingAddSupplierTC26</span>
+                <span class="method-start">332308 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySupplierNameTC27</span>
+                <span class="method-start">345086 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyPurchaseStatusTC28</span>
+                <span class="method-start">348424 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyLocationTC29</span>
+                <span class="method-start">351815 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deletePurchaseTC30</span>
+                <span class="method-start">355243 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">autoscripts.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">360561 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">autoscripts.ProductTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">360777 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">autoscripts.PurchaseTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">361013 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

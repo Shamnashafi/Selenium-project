@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="30" passed="30">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="361399" started-at="2023-01-07T16:05:44Z" finished-at="2023-01-07T16:11:46Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="361399" started-at="2023-01-07T16:05:44Z" finished-at="2023-01-07T16:11:46Z">
+      <class name="autoscripts.ProductTest">
+        <test-method status="PASS" signature="addUnitUsingIconTC03()[pri:1, instance:autoscripts.ProductTest@15d9bc04]" name="addUnitUsingIconTC03" duration-ms="39888" started-at="2023-01-07T20:06:59Z" description="Adding Unit with &#039;+&#039; symbol" finished-at="2023-01-07T20:07:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addUnitUsingIconTC03 -->
+        <test-method status="PASS" signature="addBrandUsingIconTC04()[pri:2, instance:autoscripts.ProductTest@15d9bc04]" name="addBrandUsingIconTC04" duration-ms="8610" started-at="2023-01-07T20:07:39Z" description="Adding Brand name with &#039;+&#039; symbol" finished-at="2023-01-07T20:07:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBrandUsingIconTC04 -->
+        <test-method status="PASS" signature="uploadImageTC05()[pri:3, instance:autoscripts.ProductTest@15d9bc04]" name="uploadImageTC05" duration-ms="6520" started-at="2023-01-07T20:07:48Z" description="Uploading Image" finished-at="2023-01-07T20:07:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadImageTC05 -->
+        <test-method status="PASS" signature="variableProductTypeTC06()[pri:4, instance:autoscripts.ProductTest@15d9bc04]" name="variableProductTypeTC06" duration-ms="9430" started-at="2023-01-07T20:07:54Z" description="Selecting variable product type" finished-at="2023-01-07T20:08:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- variableProductTypeTC06 -->
+        <test-method status="PASS" signature="withoutProductNameTC07()[pri:5, instance:autoscripts.ProductTest@15d9bc04]" name="withoutProductNameTC07" duration-ms="13860" started-at="2023-01-07T20:08:04Z" description="Without mandatory field-Product Name" finished-at="2023-01-07T20:08:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withoutProductNameTC07 -->
+        <test-method status="PASS" signature="withoutUnitTC08()[pri:6, instance:autoscripts.ProductTest@15d9bc04]" name="withoutUnitTC08" duration-ms="11331" started-at="2023-01-07T20:08:18Z" description="Without mandatory field-Unit" finished-at="2023-01-07T20:08:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withoutUnitTC08 -->
+        <test-method status="PASS" signature="withoutQuantityTC09()[pri:7, instance:autoscripts.ProductTest@15d9bc04]" name="withoutQuantityTC09" duration-ms="12260" started-at="2023-01-07T20:08:29Z" description="Without mandatory field-Quantity" finished-at="2023-01-07T20:08:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withoutQuantityTC09 -->
+        <test-method status="PASS" signature="withoutTaxTC10()[pri:8, instance:autoscripts.ProductTest@15d9bc04]" name="withoutTaxTC10" duration-ms="12302" started-at="2023-01-07T20:08:41Z" description="Without mandatory field-Tax" finished-at="2023-01-07T20:08:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withoutTaxTC10 -->
+        <test-method status="PASS" signature="verifyingAddProductTC11()[pri:9, instance:autoscripts.ProductTest@15d9bc04]" name="verifyingAddProductTC11" duration-ms="7304" started-at="2023-01-07T20:08:54Z" description="Adding a new product" finished-at="2023-01-07T20:09:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingAddProductTC11 -->
+        <test-method status="PASS" signature="verifyProductNameTC12()[pri:10, instance:autoscripts.ProductTest@15d9bc04]" name="verifyProductNameTC12" duration-ms="4466" started-at="2023-01-07T20:09:01Z" description="Verifying the product name from product list" finished-at="2023-01-07T20:09:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductNameTC12 -->
+        <test-method status="PASS" signature="verifyingSellingPriceTC13()[pri:11, instance:autoscripts.ProductTest@15d9bc04]" name="verifyingSellingPriceTC13" duration-ms="3553" started-at="2023-01-07T20:09:05Z" description="Verifying the selling price from product list" finished-at="2023-01-07T20:09:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingSellingPriceTC13 -->
+        <test-method status="PASS" signature="verifyingCategoryTC14()[pri:12, instance:autoscripts.ProductTest@15d9bc04]" name="verifyingCategoryTC14" duration-ms="3665" started-at="2023-01-07T20:09:09Z" description="Verifying the category from product list" finished-at="2023-01-07T20:09:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingCategoryTC14 -->
+        <test-method status="PASS" signature="verifyingBrandTC15()[pri:13, instance:autoscripts.ProductTest@15d9bc04]" name="verifyingBrandTC15" duration-ms="3709" started-at="2023-01-07T20:09:13Z" description="Verifying the Brand from product list" finished-at="2023-01-07T20:09:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingBrandTC15 -->
+        <test-method status="PASS" signature="deletingProductTC16()[pri:14, instance:autoscripts.ProductTest@15d9bc04]" name="deletingProductTC16" duration-ms="8573" started-at="2023-01-07T20:09:16Z" description="Deleting the added product from the product list" finished-at="2023-01-07T20:09:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletingProductTC16 -->
+      </class> <!-- autoscripts.ProductTest -->
+      <class name="autoscripts.PurchaseTest">
+        <test-method status="PASS" signature="uploadImageTC17()[pri:1, instance:autoscripts.PurchaseTest@473b46c3]" name="uploadImageTC17" duration-ms="14147" started-at="2023-01-07T20:09:25Z" description="Uploading Document" finished-at="2023-01-07T20:09:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadImageTC17 -->
+        <test-method status="PASS" signature="SelectingCardPaymentTC18()[pri:2, instance:autoscripts.PurchaseTest@473b46c3]" name="SelectingCardPaymentTC18" duration-ms="5495" started-at="2023-01-07T20:09:39Z" description="Selecting Card payment mehod" finished-at="2023-01-07T20:09:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectingCardPaymentTC18 -->
+        <test-method status="PASS" signature="SelectingChequePaymentTC19()[pri:3, instance:autoscripts.PurchaseTest@473b46c3]" name="SelectingChequePaymentTC19" duration-ms="3358" started-at="2023-01-07T20:09:45Z" description="Selecting Cheque payment mehod" finished-at="2023-01-07T20:09:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectingChequePaymentTC19 -->
+        <test-method status="PASS" signature="SelectingBankPaymentTC20()[pri:4, instance:autoscripts.PurchaseTest@473b46c3]" name="SelectingBankPaymentTC20" duration-ms="3588" started-at="2023-01-07T20:09:48Z" description="Selecting Bank payment mehod" finished-at="2023-01-07T20:09:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectingBankPaymentTC20 -->
+        <test-method status="PASS" signature="withoutSupplierNameTC21()[pri:5, instance:autoscripts.PurchaseTest@473b46c3]" name="withoutSupplierNameTC21" duration-ms="18681" started-at="2023-01-07T20:09:52Z" description="Without mandatory field-Supplier Name" finished-at="2023-01-07T20:10:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withoutSupplierNameTC21 -->
+        <test-method status="PASS" signature="withoutPurchaseStatusTC22()[pri:6, instance:autoscripts.PurchaseTest@473b46c3]" name="withoutPurchaseStatusTC22" duration-ms="25058" started-at="2023-01-07T20:10:10Z" description="Without mandatory field-Purchase Status" finished-at="2023-01-07T20:10:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withoutPurchaseStatusTC22 -->
+        <test-method status="PASS" signature="withoutLocationTC23()[pri:7, instance:autoscripts.PurchaseTest@473b46c3]" name="withoutLocationTC23" duration-ms="18418" started-at="2023-01-07T20:10:35Z" description="Without mandatory field-Location" finished-at="2023-01-07T20:10:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withoutLocationTC23 -->
+        <test-method status="PASS" signature="withoutAddProductTC24()[pri:8, instance:autoscripts.PurchaseTest@473b46c3]" name="withoutAddProductTC24" duration-ms="12162" started-at="2023-01-07T20:10:54Z" description="Without mandatory field-Add Product" finished-at="2023-01-07T20:11:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withoutAddProductTC24 -->
+        <test-method status="PASS" signature="withoutAmountTC25()[pri:9, instance:autoscripts.PurchaseTest@473b46c3]" name="withoutAmountTC25" duration-ms="10786" started-at="2023-01-07T20:11:06Z" description="Without mandatory field-Amount" finished-at="2023-01-07T20:11:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withoutAmountTC25 -->
+        <test-method status="PASS" signature="verifyingAddSupplierTC26()[pri:10, instance:autoscripts.PurchaseTest@473b46c3]" name="verifyingAddSupplierTC26" duration-ms="12746" started-at="2023-01-07T20:11:17Z" description="Adding a new Purchase" finished-at="2023-01-07T20:11:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingAddSupplierTC26 -->
+        <test-method status="PASS" signature="verifySupplierNameTC27()[pri:11, instance:autoscripts.PurchaseTest@473b46c3]" name="verifySupplierNameTC27" duration-ms="3330" started-at="2023-01-07T20:11:29Z" description="Verifying supplier name from the purchase list" finished-at="2023-01-07T20:11:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySupplierNameTC27 -->
+        <test-method status="PASS" signature="verifyPurchaseStatusTC28()[pri:12, instance:autoscripts.PurchaseTest@473b46c3]" name="verifyPurchaseStatusTC28" duration-ms="3391" started-at="2023-01-07T20:11:33Z" description="Verifying purchase status from the purchase list" finished-at="2023-01-07T20:11:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPurchaseStatusTC28 -->
+        <test-method status="PASS" signature="verifyLocationTC29()[pri:13, instance:autoscripts.PurchaseTest@473b46c3]" name="verifyLocationTC29" duration-ms="3428" started-at="2023-01-07T20:11:36Z" description="Verifying the location from the purchase list" finished-at="2023-01-07T20:11:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLocationTC29 -->
+        <test-method status="PASS" signature="deletePurchaseTC30()[pri:14, instance:autoscripts.PurchaseTest@473b46c3]" name="deletePurchaseTC30" duration-ms="5318" started-at="2023-01-07T20:11:40Z" description="Deleting the purchase from the list" finished-at="2023-01-07T20:11:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePurchaseTC30 -->
+      </class> <!-- autoscripts.PurchaseTest -->
+      <class name="autoscripts.LoginTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:autoscripts.LoginTest@1e9e725a]" name="beforeTest" is-config="true" duration-ms="14470" started-at="2023-01-07T20:05:44Z" finished-at="2023-01-07T20:05:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:autoscripts.ProductTest@15d9bc04]" name="beforeTest" is-config="true" duration-ms="18775" started-at="2023-01-07T20:05:59Z" finished-at="2023-01-07T20:06:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:autoscripts.PurchaseTest@473b46c3]" name="beforeTest" is-config="true" duration-ms="31756" started-at="2023-01-07T20:06:18Z" finished-at="2023-01-07T20:06:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="invalidLoginTC02(java.lang.String, java.lang.String)[pri:1, instance:autoscripts.LoginTest@1e9e725a]" name="invalidLoginTC02" duration-ms="2368" started-at="2023-01-07T20:06:49Z" description="Login with invalid credentials" data-provider="login-invalid" finished-at="2023-01-07T20:06:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shamna]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTC02 -->
+        <test-method status="PASS" signature="validLoginTC01()[pri:2, instance:autoscripts.LoginTest@1e9e725a]" name="validLoginTC01" duration-ms="7379" started-at="2023-01-07T20:06:52Z" description="Login with valid username and valid password" finished-at="2023-01-07T20:06:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTC01 -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:autoscripts.LoginTest@1e9e725a]" name="afterTest" is-config="true" duration-ms="216" started-at="2023-01-07T20:11:45Z" finished-at="2023-01-07T20:11:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:autoscripts.ProductTest@15d9bc04]" name="afterTest" is-config="true" duration-ms="236" started-at="2023-01-07T20:11:45Z" finished-at="2023-01-07T20:11:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:autoscripts.PurchaseTest@473b46c3]" name="afterTest" is-config="true" duration-ms="355" started-at="2023-01-07T20:11:45Z" finished-at="2023-01-07T20:11:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- autoscripts.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
